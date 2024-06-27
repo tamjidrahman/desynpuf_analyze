@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "desynpuf-analyze"
+version = "0.1.0"
+description = ""
+authors = ["Tamjid Rahman"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlmesh = "^0.106.2"
+agate = "^1.11.0"
+dbt = "^1.0.0.38.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
